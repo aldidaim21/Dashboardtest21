@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
+
+#makan
 #show data
 def load_data():
     df= pd.read_csv("covid_19_indonesia_time_series_all.csv")
